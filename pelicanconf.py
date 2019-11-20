@@ -30,7 +30,8 @@ PHOTO_GALLERY = (1920, 1080, 99)
 PHOTO_ARTICLE = (760, 506, 99)
 PHOTO_THUMB = (192, 144, 60)
 PHOTO_RESIZE_JOBS = 5
-
+PHOTO_EXIF_KEEP = True
+PHOTO_EXIF_AUTOROTATE = True
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
 #         ('Python.org', 'http://python.org/'),
