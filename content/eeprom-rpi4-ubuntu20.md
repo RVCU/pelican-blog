@@ -32,7 +32,7 @@ and edit the current bootconfig
 `BOOTFS=/boot/firmware ./rpi-eeprom-config --edit` 
 
 if the edit command is complaining it can't find the `rpi-eeprom-update` command just edit `rpi-eeprom-config` file with 
-```sed -i 's/rpi-eeprom-update/\.\/rpi-eeprom-update/g' /opt/vc/bin/vcgencmd```
+```sed -i 's/rpi-eeprom-update/\.\/rpi-eeprom-update/g' rpi-eeprom-config```
  since they are in the same dir and trying to move the update tool to a another bin dir had some issues.
 
 This is pretty ugly and there is definitely a cleaner way but I was doing this on the SD card OS I no longer cared about so :) 
